@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__container {
+    max-width: 600px;
+}
+
+.nav__link {
+    margin-left: 50px;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: $gray-dark;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: $brown;
+    cursor: pointer;
+    transition: color .2s linear;
+}

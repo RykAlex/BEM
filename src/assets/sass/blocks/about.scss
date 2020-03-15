@@ -1,0 +1,37 @@
+.about__container {
+    margin: 0 auto;
+    max-width: 754px;
+}
+
+.about_title {
+    text-align: center;
+    margin-top: 188px;
+    font-family: Lato;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: #000000;
+    position: relative
+}
+
+.about_title:after {
+    content: "";
+    width: 81px;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    top: 60px;
+    left: 44.5%;
+    }
+
+.about_text {
+    margin-top: 37px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color: $gray;
+    text-align: center;
+}
